@@ -39,6 +39,7 @@ public class CustomListTest {
         list.addCity(new City("Estevan", "SK"));
         assertEquals(list.getCount(),listSize + 1);
     }
+    @Test
     public void testDeleteCity() {
         CustomList cityList = new CustomList(null, new ArrayList<>());
         City city = new City("Toronto", "Ontario");
